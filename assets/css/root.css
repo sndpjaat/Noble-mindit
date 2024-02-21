@@ -16,9 +16,16 @@
     --bg-black: #000000;
     --bg-lightgray:#EFEFEF;
     --color-drkprpl:#9363EE;
+    --color-lightblack:#4C4C4C;
+    --color-exectralight:#333232;
 
 }
-
+.color-exectralight{
+    color: var(--color-exectralight);
+}
+.color-lightblack{
+    color: var(--color-lightblack);
+}
 .color-black{
     color: var(--color-black);
 }
@@ -109,6 +116,9 @@
 }
 .lh-70{
     line-height: 70.4px;
+}
+.lh-26{
+    line-height: 26.1px;
 }
 
 @media (min-width:576px) {
